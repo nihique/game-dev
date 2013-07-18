@@ -8,6 +8,7 @@ module.exports = {
     tasks: ['build:debug', 'karma:server:run']
   },
   options: {
-    nospawn: true
+    nospawn: true,
+    livereload: true
   }
 };

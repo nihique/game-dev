@@ -1,3 +1,7 @@
+Me playing with HTML5 game dev using Ember.js
+
+---
+
 # Ember App Kit
 
 Ember App Kit is a foundation for your ambitious web applications built in Ember. It's intended to be used either on its own or as the base scaffolding for generators built on for Ember applications, including [Ember Tools](https://github.com/rpflorence/ember-tools), [generator-ember](https://github.com/yeoman/generator-ember), and a hypothetical official executable at some point in the future.

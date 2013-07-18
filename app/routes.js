@@ -1,8 +1,7 @@
 function Routes() {
-  // // routes/resources
-  // this.resource('posts', function() {
-  //   this.route('new');
-  // });
+  this.resource('game-dev', function() {
+    this.route('canvas');
+  });
 }
 
 export default Routes;
