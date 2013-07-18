@@ -1,6 +1,5 @@
 function Routes() {
-  this.resource('game-dev', function() {
-    this.route('canvas');
+  this.resource('canvas', function() {
   });
 }
 

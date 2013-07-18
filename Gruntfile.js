@@ -26,7 +26,7 @@ module.exports = function(grunt) {
                      // Uncomment this line & `npm install --save-dev grunt-sass` for SASS support.
                      // 'sass:compile',
                      // Uncomment this line & `npm install --save-dev grunt-contrib-less` for LESS support.
-                     // 'less:compile'
+                     'less:compile',
                      'concat',
                      'unlock' ]);
 
