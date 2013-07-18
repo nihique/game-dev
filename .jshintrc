@@ -5,6 +5,8 @@
     "location",
     "setTimeout",
     "Ember",
+    "Handlebars",
+    "App",
     "$",
     "define",
     "console",

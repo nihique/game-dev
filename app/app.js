@@ -7,7 +7,36 @@ var App = Ember.Application.create({
   resolver: Resolver
 });
 
-import routes from 'appkit/routes';
-App.Router.map(routes); // TODO: just resolve the router
+init();
+
+// private methods
+
+function init() {
+  initRoutes();
+  initModels();
+  initStore();
+  initHelpers();
+}
+
+function initRoutes() {
+  import Routes from 'appkit/routes';
+  App.Router.map(Routes); 
+}
+
+function initModels() {
+  // import Table from 'appkit/models/table';
+  // App.Table = Table;
+} 
+
+function initStore() {
+  // import Store from 'appkit/store';
+  // App.Store = Store;
+}
+
+function initHelpers() {
+  // import price from 'appkit/helpers/link_nav';
+}
+
+// export
 
 export default App;

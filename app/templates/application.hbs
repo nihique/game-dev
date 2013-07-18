@@ -5,8 +5,8 @@
       <div class="container">
         {{#linkTo 'index' class="brand"}}{{appName}}{{/linkTo}}
         <ul class="nav">
-          <li>{{#linkTo 'index'}}Home{{/linkTo}}</li>
-          <li class="active">{{#linkTo 'canvas'}}Canvas{{/linkTo}}</li>
+          {{#linkTo 'index' tagName='li'}}<a>Home</a>{{/linkTo}}
+          {{#linkTo 'canvas' tagName='li'}}<a>Canvas</a>{{/linkTo}}
         </ul>
       </div>
     </div>
@@ -14,6 +14,9 @@
 
   <section id="main" class="container">
     <div class="row">
+      {{linkNav }}
+
+
       {{outlet}}
     </div>
   </section>
