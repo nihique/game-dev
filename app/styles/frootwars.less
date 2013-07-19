@@ -1,0 +1,32 @@
+@baseWidth: 640px;
+@baseHeight: 480px;
+
+
+#gamecontainer {
+  width: @baseWidth;
+  height: @baseHeight;
+  background: url(images/frootwars/splashscreen.png);
+  border: 1px solid black;
+}
+
+.gamelayer {
+  width: @baseWidth;
+  height: @baseHeight;
+  position: absolute;
+  display: none;
+}
+
+
+/**
+ * Game starting menu screen
+ */
+
+ #gamestratscreen {
+  padding-top: 250px;
+  text-align: center;
+
+  img {
+    margin: 10px;
+    cursor: pointer;
+  }
+ }
