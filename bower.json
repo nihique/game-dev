@@ -1,8 +1,26 @@
 {
+  "name": "game-dev",
+  "version": "0.0.1",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "components",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
     "ember": "~1.0.0-rc.6",
     "handlebars": "~1.0.0",
     "jquery": "~2.0.3",
     "bootstrap": "~2.3.2"
+  },
+  "install": {
+    "path": "vendor/bower_installer",
+    "sources": {
+      "bootstrap": [
+        "bower_components/bootstrap/docs/assets/js/bootstrap.js"
+      ]
+    }
   }
 }

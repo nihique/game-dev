@@ -18,11 +18,6 @@
 
 /node_modules
 /.sass-cache
-
-/vendor/jquery/
-/vendor/handlebars/
-/vendor/ember/
-/vendor/ember-data/
-/vendor/bootstrap/
+/bower_components
 
 *.sublime-workspace

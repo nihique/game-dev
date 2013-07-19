@@ -54,6 +54,8 @@ module.exports = function(grunt) {
                      ['build:debug', 'connect', 'watch:main']);
   grunt.registerTask('server:dist', "Preview production (minified) assets.",
                      ['build:dist', 'connect:server:keepalive']);
+
+  initGruntEvents(grunt);
 };
 
 
@@ -71,5 +73,22 @@ function loadConfig(path) {
   });
 
   return object;
+}
+
+// TODO: martin - extract to specific tasks
+function initGruntEvents(grunt) {
+
+/*  // Less.js: modify task to compile less only when some less file changed
+  grunt.event.on('watch', function(action, filepath) {
+    // by default don't compile any less files
+    var files = {};
+    // when any less file changed recompile allFiles
+    if (filepath.indexOf('.less') > -1) {
+      files = grunt.config(['less', 'allFiles']);
+    }
+    // set less config
+    grunt.config(['less', 'compile', 'files'], files);
+  });
+*/
 }
 
