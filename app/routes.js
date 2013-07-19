@@ -1,5 +1,7 @@
 function Routes() {
-  this.resource('canvas', function() {
+  this.resource('frootwars', function() {
+  });
+  this.resource('lastcolony', function() {
   });
 }
 

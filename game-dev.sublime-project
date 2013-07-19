@@ -2,7 +2,8 @@
  "folders": [
   {
    "folder_exclude_patterns": [
-    "node_modules"
+    "node_modules", 
+    "bower_components"
    ], 
    "path": "/C/Users/Martin/Code/game-dev"
   }
